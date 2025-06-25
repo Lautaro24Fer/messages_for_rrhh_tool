@@ -1,5 +1,3 @@
-const readmeContent = `# 📨 RRHH Message Tool
-
 Una aplicación React diseñada para ayudarte a generar y enviar rápidamente mensajes laborales personalizados, como cartas de presentación, agradecimientos y contactos espontáneos.
 
 ## ✨ Características
@@ -13,12 +11,12 @@ Una aplicación React diseñada para ayudarte a generar y enviar rápidamente me
 
 ## 🚀 Instalación rápida
 
-\`\`\`bash
+```bash
 git clone https://github.com/tuusuario/rrhhmessagetool.git
 cd rrhhmessagetool
 npm install
 npm run dev
-\`\`\`
+```
 
 ## 📦 Tecnologías usadas
 
@@ -46,7 +44,7 @@ npm run dev
 ## 🧑‍💻 Autor
 
 Desarrollado por **Lautaro Fernández**  
-🔗 [Portfolio](https://tusitioweb.dev) – 💼 [LinkedIn](https://linkedin.com/in/tuusuario) – 🐙 [GitHub](https://github.com/tuusuario)
+🔗 [Portfolio](https://lautarodev.online) – 💼 [LinkedIn](https://linkedin.com/in/lautaro-leonel-fernandez-dev) – 🐙 [GitHub](https://github.com/Lautaro24Fer)
 
 ## 📄 Licencia
 
