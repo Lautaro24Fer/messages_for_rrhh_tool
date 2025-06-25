@@ -65,20 +65,20 @@ export default function formMessage() {
           <input placeholder="Porfolio url" {...register('portfolio')} className="input input-neutral" />
         </div>
         <select {...register('type')} className="select">
-            <option value="presentation">Carta Presentación</option>
-            <option value="thanks">Agradecimiento</option>
-            <option value="first_contact">Primer Contacto</option>
+            <option value="presentation">Presentation</option>
+            <option value="thanks">Gratitude</option>
+            <option value="first_contact">First contact</option>
           </select>
           <select {...register('action')} className="select">
-            <option value="download">Descargar .txt</option>
-            <option value="whatsapp">Enviar por WhatsApp</option>
+            <option value="download">Download .txt</option>
+            <option value="whatsapp">Send WhatsApp</option>
           </select>
       </div>
       <div className="col">
-          <p className="text-xs text-gray-500">* Los campos son opcionales, pero si no se completan, el mensaje no se generará correctamente.</p>
-          <p className="text-xs text-gray-500">* El número de teléfono debe incluir el código de país (ejemplo: +34 para España).</p>
+          <p className="text-xs text-gray-500">* The fields are optional, but if they are not completed, the message will not be generated correctly.</p>
+          <p className="text-xs text-gray-500">* The phone number must include the country code (example: +34 for Spain).</p>
         </div>
-      <button type="submit" className="bg-blue-500 h-[3rem] cursor-pointer text-white p-2 rounded">Generate</button>
+      <button type="submit" className="bg-blue-500 hover:bg-blue-600 transition h-[3rem] cursor-pointer text-white p-2 rounded">Generate</button>
     </form>
   );
 }
