@@ -1,0 +1,9 @@
+input{
+  border: 1px solid rgba(228, 226, 226, 0.466);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form{
+  margin-top: 20px;
+}
